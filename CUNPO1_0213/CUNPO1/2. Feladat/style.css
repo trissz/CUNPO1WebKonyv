@@ -1,0 +1,120 @@
+body
+{
+    margin: auto;
+}
+
+.img_container
+{
+    padding: 15px;
+    margin: auto;
+}
+
+#the_img
+{
+    display: flex;
+    padding: 10px 10px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border-color 0.5s ease;
+}
+
+#the_img:hover
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: border 0.5s ease;
+}
+
+.title_1
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #043c4b;
+}
+
+.title_1:hover
+{
+    color: #c4cc05;
+}
+
+#subject_container
+{
+    display: flex;
+    /*background-color: #7aa4a3;*/
+    background-color: #79a2ad;
+    border-top: 10px solid #c4cc05;
+    border-bottom: 10px solid #c4cc05;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subject
+{
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.subject:hover
+{
+    background-color:#043c4b;
+    transition: background-color 0.5s ease;
+    border-radius: 20px;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.paragraph_1
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.paragraph_2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border-left: 5px solid black;
+    color: #043c4b;
+    padding: 20px;
+}
+
+a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #043c4b;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.footer_
+{
+    border-top: 5px solid #c4cc05;
+    border-bottom: 5px solid #c4cc05;
+    border-radius: 5px;;
+    background-color: #08354a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
