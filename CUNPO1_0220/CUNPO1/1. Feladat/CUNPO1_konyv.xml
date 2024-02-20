@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CUNPO1_konyv>
+    <konyv id="01">
+        <szerzo>Bach Iván</szerzo>
+        <cim>Formális nyelvek</cim>
+        <kiado>Typotex Kiadó</kiado>
+        <kiadas_eve>2001</kiadas_eve>
+        <tipus>Elektronikus dokumentum</tipus>
+    </konyv>
+    <konyv id="02">
+        <szerzo>Baka Magdolna</szerzo>
+        <cim>Szövegszerkesztés</cim>
+        <kiado>EKTF Líceum Kiadó</kiado>
+        <kiadas_eve>1997</kiadas_eve>
+        <tipus>Könyv</tipus>
+    </konyv>
+    <konyv id="03">
+        <szerzo>Bednarik László</szerzo>
+        <cim>Oktatás- és információtechnika I. : tanító- és óvodapedagógus szak I. évfolyam / készítette Bednarik László</cim>
+        <kiado>ME CFK Informatika Tanszék</kiado>
+        <kiadas_eve>2010</kiadas_eve>
+        <tipus>Könyv</tipus>
+    </konyv>
+</CUNPO1_konyv>
