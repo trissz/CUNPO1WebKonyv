@@ -1,0 +1,21 @@
+Szerző:	Bach Iván
+Cím: Formális nyelvek
+Kiadó: Typotex Kiadó
+Kiadás éve: 2001
+Típus: Elektronikus dokumentum
+
+-------------------------------------------
+
+Szerző:	Baka Magdolna
+Cím: Szövegszerkesztés
+Kiadó: EKTF Líceum Kiadó
+Kiadás éve: 1997
+Típus: Könyv
+
+-------------------------------------------
+
+Szerző:	Bednarik László
+Cím: Oktatás- és információtechnika I. : tanító- és óvodapedagógus szak I. évfolyam / készítette Bednarik László
+Kiadó: ME CFK Informatika Tanszék
+Kiadás éve: 2010
+Típus: Könyv

@@ -10,6 +10,7 @@
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)</helyszin>
         <oktato>Alföldi Attila</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Elmélet</tipus>
     </ora>
     <ora id="02">
         <targy>Webkönyvtárak (THE_00583_N_5_G)</targy>
@@ -21,6 +22,7 @@
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)</helyszin>
         <oktato>Dr. Bednarik László</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Gyakorlat</tipus>
     </ora>
     <ora id="03">
         <targy>Webkönyvtárak (THE_00583_N_5_G)</targy>
@@ -32,6 +34,7 @@
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)</helyszin>
         <oktato>Dr. Bednarik László</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Gyakorlat</tipus>
     </ora>
     <ora id="04">
         <targy>Komputergrafika és képfeldolgozás (THE_00584_N_5_K)</targy>
@@ -43,6 +46,7 @@
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)</helyszin>
         <oktato>Dr. Bednarik László</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Elmélet</tipus>
     </ora>
     <ora id="05">
         <targy>Komputergrafika és képfeldolgozás (THE_00584_N_5_K)</targy>
@@ -54,6 +58,7 @@
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)</helyszin>
         <oktato>Dr. Bednarik László</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Elmélet</tipus>
     </ora>
     <ora id="06">
         <targy>Kalkulus (THE_00562_N_3_K)</targy>
@@ -65,6 +70,7 @@
         <helyszin>-</helyszin>
         <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Elmélet</tipus>
     </ora>
     <ora id="07">
         <targy>Operációs rendszerek (THE_00571_N_5_K)</targy>
@@ -76,5 +82,6 @@
         <helyszin>-</helyszin>
         <oktato>Janics Tamás</oktato>
         <szak>Programtervező informatikus - alapképzés (THE-PTI-BSc-N)</szak>
+        <tipus>Elmélet</tipus>
     </ora>
 </BTK_orarend>
