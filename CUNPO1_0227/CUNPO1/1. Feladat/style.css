@@ -1,0 +1,127 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    margin-bottom: 2em;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer
+{
+    margin-top: 2em;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+    padding: 0.1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#video_
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#controls
+{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 3em;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em;
+    background-color: bisque;
+    border: 0.5em solid black;
+    border-radius: 1em;
+}
+
+#controls > button
+{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.2em solid black;
+    border-radius: 0.5em;
+    background-color: turquoise;
+    transition: background-color 0.3s ease-out;
+}
+
+#controls > button:hover
+{
+    background-color: azure;
+    transition: background-color 0.3s ease;
+}
+
+#btn_container
+{
+    display: flex;
+}
+
+#vol_label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-bottom: 0.1em;
+}
+
+#vol_container
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vol_down, #vol_up
+{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+}
+
+#mute_btn
+{
+    width: 100%;
+}
+
+#speed_change_container
+{
+    justify-content: center;
+    align-items: center;
+}
+
+#speed_change_label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-bottom: 0.1em;
+}
+
+#speed_down_btn, #speed_up_btn
+{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+}
+
+#set_default_speed_btn
+{
+    width: 100%;
+}
