@@ -26,6 +26,14 @@
         <div id="speed_change_container"><div id="speed_change_label">Lejátszási sebesség</div><div class="btn_container"><button id="speed_down_btn" onclick="speedDown();">&#171;</button><button  id="speed_up_btn" onclick="speedUp();">&#187;</button></div><button id="set_default_speed_btn" onclick="setSpeedDefault();">Alaphelyzetbe állítás</button></div>
     </div>
 
+    <div id="info_btn_container">
+        <button id="info_is_end_btn" onclick="showIsEndBox();">Befejeződött-e</button>
+        <button id="info_length_btn" onclick="showLengthBox();">Videó hossza (mp)</button>
+        <button id="info_actual_position_btn" onclick="showActualPositionBox();">Jelenlegi pozíció</button>
+    </div>
+
+    <div id="info_output_container"></div>
+
     <script>
         init();
     </script>

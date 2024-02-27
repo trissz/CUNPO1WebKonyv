@@ -111,3 +111,44 @@ function muteUnmuteVideo()
         }
     }
 }
+
+function clearOutputSection()
+{
+    document.getElementById('info_output_container').style.backgroundColor = '';
+    document.getElementById('info_output_container').style.border = '';
+    document.getElementById('info_output_container').innerHTML = '';
+}
+
+function showIsEndBox()
+{
+    if ( video )
+    {
+        document.getElementById('info_output_container').style.backgroundColor = 'beige';
+        document.getElementById('info_output_container').style.border = '0.2em solid black';
+        video.currentTime == video.duration ?
+            document.getElementById('info_output_container').innerHTML = "Vége a videónak." :
+            document.getElementById('info_output_container').innerHTML = "A videónak még nincs vége.";
+
+        document.getElementById('info_output_container').innerHTML += '<button class="ok_btn" onclick="clearOutputSection();">OK</button>';
+    }
+}
+
+function showLengthBox()
+{
+    if ( video )
+    {
+        document.getElementById('info_output_container').style.backgroundColor = 'beige';
+        document.getElementById('info_output_container').style.border = '0.2em solid black';
+        document.getElementById('info_output_container').innerHTML = "A videó hossza (mp): " + video.duration + '<button class="ok_btn" onclick="clearOutputSection();">OK</button>';
+    }
+}
+
+function showActualPositionBox()
+{
+    if ( video )
+    {
+        document.getElementById('info_output_container').style.backgroundColor = 'beige';
+        document.getElementById('info_output_container').style.border = '0.2em solid black';
+        document.getElementById('info_output_container').innerHTML = "A videó jelenlegi pozíciója (mp): " + video.currentTime + '<button class="ok_btn" onclick="clearOutputSection();">OK</button>';
+    }
+}
