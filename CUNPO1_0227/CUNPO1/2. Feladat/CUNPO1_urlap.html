@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
-    <title>HTML5 - Űrlap</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Űrlap</title>
 </head>
 <body>
 
-    <section class="form" id="form_1">
-        <div class="form_element" id="name_container"><div class="form_element_label">Név:</div><input class="form_element_content"></input></div>
-        <div class="form_element" id="pin_container"><div class="form_element_label">PIN Kód:</div><input class="form_element_content"></input></div>
-        <div class="form_element" id="favfruit_container"><div class="form_element_label">Kedvenc Gyümölcs:</div><input class="form_element_content"></input></div>
-        <div class="form_element" id="age_container"><div class="form_element_label">Életkor:</div><input class="form_element_content"></input></div>
-        <div class="form_element" id="shoesize_container"><div class="form_element_label">Lábméret:</div><input class="form_element_content"></input></div>
-        <div class="form_element" id="confidence_container"><div class="form_element_label">Önbizalom:</div><input class="form_element_content"></input></div>
+    <div class="header_">
+        <h2>Űrlap</h2>
+    </div>
+
+    <section class="form">
+        <form action="CUNPO1_feldolgozo.php" method="post">
+            <div class="form_element" id="name_container">
+                <div class="form_element_label">Név:</div>
+                <input class="form_element_content" id="name_" name="name" type="text" checked/>
+            </div>
+            <div class="form_element" id="pin_container">
+                <div class="form_element_label">PIN kód:</div>
+                <input class="form_element_content" id="pin_" name="pin" type="number" min="1000" max="9999" checked/>
+            </div>
+            <div class="form_element" id="favfruit_container">
+                <div class="form_element_label">Kedvenc gyümölcs:</div>
+                <select class="selector_1" id="favfruit_" name="favfruit">
+                    <option value="-" selected>Válasszon</option>
+                    <option value="alma">Alma</option>
+                    <option value="narancs">Narancs</option>
+                    <option value="banan">Banán</option>
+                    <option value="korte">Körte</option>
+                </select>
+            </div>
+            <div class="form_element" id="age_container">
+                <div class="form_element_label">Életkor:</div>
+                <input class="form_element_content" id="age_" name="age" type="number" min="0" step="1"/>
+            </div>
+            <div class="form_element" id="shoesize_container">
+                <div class="form_element_label">Lábméret:</div>
+                <input class="form_element_content" id="shoesize_" name="shoesize" type="number" min="0" step="0.5"/>
+            </div>
+            <div class="form_element" id="confidence_container">
+                <div class="form_element_label">Önbizalom:</div>
+                <div class="range_input_label_container">0</div><input class="range_input" id="range_" name="confidence" type="range" min="0" max="100" value="50"/><div class="range_input_label_container">100</div>
+            </div><hr>
+            <div id="btn_container">
+                <input id="send_btn" type="submit" value="Elküldöm"/>
+                <input id="send_without_check_btn" type="submit" value="Elküldöm ellenőrzés nélkül"/>
+            </div>
+        </form>
     </section>
+
+    <div class="footer_">
+        <h2>CUNPO1</h2>
+    </div>
     
 </body>
 </html>

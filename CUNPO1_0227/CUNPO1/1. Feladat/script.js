@@ -59,6 +59,7 @@ function volumeDown()
 {
     if ( video )
     {
+        if ( video.volume - 0.1 == 0 ) document.getElementById('mute_btn').innerHTML = '&#128264';
         video.volume -= 0.1;
     }
 }
