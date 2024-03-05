@@ -1,0 +1,53 @@
+body
+{
+    margin: 2em;
+}
+
+header
+{
+    width: fit-content;
+}
+
+#form_1
+{
+    margin-top: 2em;
+    width: 40%;
+}
+
+.input_container
+{
+    display: flex;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+.form_label
+{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1em;
+    width: 50%;
+}
+
+#form_1>input
+{
+    background-color: white;
+}
+
+.submit_btn
+{
+    border: 0.3em solid black;
+    background-color: lightgray;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output_container
+{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2em;
+}

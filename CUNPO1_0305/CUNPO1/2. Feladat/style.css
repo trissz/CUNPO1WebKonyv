@@ -1,0 +1,30 @@
+body
+{
+    margin: 2em;
+}
+
+.btn_
+{
+    margin: 1em;
+    margin-left: 0;
+    border: 0.1em solid black;
+    background-color: lightgray;
+    transition: background-color 0.25s ease-out;
+    font-weight: bold;
+}
+
+.btn_:hover
+{
+    background-color: darkgray;
+    transition: background-color 0.25s ease;
+}
+
+#table_1
+{
+    margin-bottom: 1em;
+}
+
+.btn_container
+{
+    display: flex;
+}
