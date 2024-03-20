@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Űrlap készítése</title>
+    </head>
+
+    <body>
+
+        <header id="header_">
+            <h1>HTML5 Űrlap - CUNPO1</h1>
+        </header>
+
+        <section class="form_section">
+            <form action="CUNPO1_feldolgozo.php" method="post" id="form_" target="self_">
+                <div class="form_input">Név:<input class="form_input_field" type="text" name="name" autofocus autocomplete="off" placeholder="Írd be a neved" required pattern="[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]+"/></div>
+
+                <div class="form_input">PIN kód:<input class="form_input_field" type="text" name="pin" autocomplete="off" pattern="[0-9]{4}" required placeholder="Írd be a kódodat"/></div>
+
+                <div class="form_input">Kedvenc gyümölcs:<input class="form_input_field" type="text" name="favourite_fruits" list="favourite_fruits_l" id="favfruits"></div>
+
+                <datalist id="favourite_fruits_l">
+                    <option value="Alma">300 Ft/kg</option>
+                    <option value="Banán">400 Ft/kg</option>
+                    <option value="Narancs">700 Ft/kg</option>
+                    <option value="Körte">500 Ft/kg</option>
+                    <option value="Barack">350 Ft/kg</option>
+                </datalist>
+
+                <div class="form_input">Életkor:<input class="form_input_field" type="number" name="age" min="0"/></div>
+
+                <div class="form_input">Lábméret:<input class="form_input_field" type="number" name="shoe_size" min="27" step="0.5"/></div>
+
+                <div class="form_input">Önbizalom:&nbsp&nbsp&nbsp0<input class="form_input_field" type="range" name="confidence" min="0" max="100" value="50" style="margin-right: 1em"/>100</div>
+            </form>
+
+            <div class="button_container">
+                <input class="submit_button" type="submit" value="ELKÜLDÖM" form="form_"/>
+                <input class="submit_button" type="submit" value="ELKÜLDÖM ELLENŐRZÉS NÉLKÜL" formnovalidate form="form_"/>
+            </div>
+        </section>
+
+        <footer id="footer_">
+            <h1>CUNPO1</h1>
+        </footer>
+        
+    </body>
+</html>

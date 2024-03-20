@@ -1,0 +1,89 @@
+body
+{
+    margin: 0;
+}
+
+#header_, #footer_
+{
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    background-color: #1b1b1b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#header_
+{
+    margin-bottom: 3em;
+}
+
+#footer_
+{
+    margin-top: 3em;
+}
+
+.form_section
+{
+    margin: auto;
+    background-color: turquoise;
+    border-radius: 5em;
+    box-shadow: 10em;
+    padding: 3em;
+    width: 60%;
+}
+
+.form_input
+{
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+.form_input_field
+{
+    margin-left: 1em;
+}
+
+.button_container
+{
+    display: flex;
+}
+
+.submit_button
+{
+    margin: 1em;
+    border: 0.05em solid black;
+    border-radius: 0.3em;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+    transition: background-color 0.25s ease-out;
+}
+
+.submit_button:hover
+{
+    background-color: darkgray;
+    transition: background-color 0.25s ease-out;
+}
+
+input[type=range]
+{
+    width: 50%;
+}
+
+input[type=text]
+{
+    font-size: large;
+    width: 50%;
+}
+
+input[type=number]
+{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
