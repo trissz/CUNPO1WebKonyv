@@ -13,7 +13,6 @@ $(document).ready(function ()
                 "</tr>";
 
             $("#book_data tbody").append(tableRow);
-            console.log(i);
         });
     });
 });
