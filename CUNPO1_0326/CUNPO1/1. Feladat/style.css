@@ -1,0 +1,27 @@
+body
+{
+    margin: 1em;
+}
+
+#book_data
+{
+    align-items: center;
+    margin: auto;
+    background-color: lightgray;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#book_data thead
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#book_data, #book_data th, #book_data td
+{
+    border: 0.05em solid black;
+    padding: 1em;
+}
