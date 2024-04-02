@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function()
         ]
     };
 
-    X = BTObj.cars[1];
+    X = BTObj.cars[2];
 
     document.getElementById("output").innerHTML = X;
 });
