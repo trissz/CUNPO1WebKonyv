@@ -21,7 +21,7 @@ header
 {
     display: flex;
     margin-bottom: 1em;
-    width: 50%;
+    width: 100%;
 }
 
 .form_label
@@ -30,7 +30,7 @@ header
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-right: 1em;
-    width: 50%;
+    width: 30%;
 }
 
 #form_1>input

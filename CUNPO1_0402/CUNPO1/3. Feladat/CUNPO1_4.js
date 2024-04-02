@@ -17,38 +17,35 @@ $(document).ready(function ()
             $(".paragraph").show();
         }else $(".paragraph").hide();
     });
-
+    
     $("#transparency_btn1").click(function ()
     {
-        $('#form_1').animate({opacity: 0.1}, 100);
+        $("#form_1").fadeTo(5000, 0.1);
     });
 
     $("#transparency_btn2").click(function ()
     {
-        $('#form_1').animate({opacity: 0.5}, 100);
+        $("#form_1").fadeTo(5000, 0.5);
     });
 
     $("#transparency_btn3").click(function ()
     {
-        $('#form_1').animate({opacity: 0.8}, 100);
+        $("#form_1").fadeTo(2000, 0.8);
     });
 
     $("#hide2").click(function ()
     {
-        $("#form_1").hide();
+        $('#form_1').fadeOut(5000);
     });
 
     $("#show2").click(function ()
     {
-        $("#form_1").show();
+        $('#form_1').fadeIn(5000);
     });
 
     $("#hide2_show2").click(function ()
     {
-        if ( $("#form_1").is(":hidden") )
-        {
-            $("#form_1").show();
-        }else $("#form_1").hide();
+        $('#form_1').fadeToggle(2000);
     });
 
     var lastY = 0;
@@ -56,16 +53,6 @@ $(document).ready(function ()
     $("#header_1").mouseleave(function ()
     {
         alert("Elhúzott egér információ");
-    });
-
-    $("#click_text_1").click(function ()
-    {
-        $("p:first").hide();
-    });
-
-    $("#click_text_2").dblclick(function ()
-    {
-        $("p:nth-child(2)").hide();
     });
 
     $("#submit_btn_1").mouseenter(function ()
