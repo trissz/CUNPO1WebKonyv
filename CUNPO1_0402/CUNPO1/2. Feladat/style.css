@@ -1,0 +1,24 @@
+body
+{
+    margin: 2em;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output_container
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.car_list_element
+{
+    text-align: center;
+    padding: 1em;
+}
