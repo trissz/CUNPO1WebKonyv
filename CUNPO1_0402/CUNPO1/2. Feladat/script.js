@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function()
 
     for ( let i = 0; i < BTObj.cars.length; i ++ )
     {
-        out += '<tr>';
+        out += '<li><h2>' + BTObj.cars[i]['name'] + '</h2></li><ul>';
 
         for ( let j = 0; j < BTObj.cars[i].models.length; j ++ )
         {
-            out += '<td class="car_list_element">' + BTObj.cars[i].models[j] + '</td>';
+            out += '<li><h3>' + BTObj.cars[i].models[j] + '</h3></li>';
         }
 
-        out += '</tr>';
+        out += '</ul>';
     }
 
     document.getElementById("output_container").innerHTML = out;
