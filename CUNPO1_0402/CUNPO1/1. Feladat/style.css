@@ -1,0 +1,16 @@
+body
+{
+    margin: 2em;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output
+{
+    margin-top: 2em;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
