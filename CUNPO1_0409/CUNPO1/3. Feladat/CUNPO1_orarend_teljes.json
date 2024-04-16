@@ -1,87 +1,87 @@
 {
   "ora": [
     {
-      "targy": "Valószínűségszámítás és statisztika (THE_00566_N_5_K)",
+      "targy": "Valószínűségszámítás és statisztika",
       "idopont": {
-        "nap": "2024. 02. 19. (Hétfő)",
+        "nap": "2024. 02. 19.",
         "tol": "10:00",
         "ig": "13:45"
       },
-      "helyszin": "Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)",
+      "helyszin": "Teológia Szemere utca 1/A",
       "oktato": "Alföldi Attila",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Elmélet"
     },
     {
-      "targy": "Webkönyvtárak (THE_00583_N_5_G)",
+      "targy": "Webkönyvtárak",
       "idopont": {
-        "nap": "2024. 02. 20. (Kedd)",
+        "nap": "2024. 02. 20.",
         "tol": "12:15",
         "ig": "13:45"
       },
-      "helyszin": "Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)",
+      "helyszin": "Teológia Szemere utca 1/A",
       "oktato": "Dr. Bednarik László",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Gyakorlat"
     },
     {
-      "targy": "Webkönyvtárak (THE_00583_N_5_G)",
+      "targy": "Webkönyvtárak",
       "idopont": {
-        "nap": "2024. 02. 20 (Kedd)",
+        "nap": "2024. 02. 20.",
         "tol": "16:00",
         "ig": "17:30"
       },
-      "helyszin": "Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)",
+      "helyszin": "Teológia Szemere utca 1/A",
       "oktato": "Dr. Bednarik László",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Gyakorlat"
     },
     {
-      "targy": "Komputergrafika és képfeldolgozás (THE_00584_N_5_K)",
+      "targy": "Komputergrafika és képfeldolgozás",
       "idopont": {
-        "nap": "2024. 02. 22. (Csütörtök)",
+        "nap": "2024. 02. 22.",
         "tol": "12:15",
         "ig": "13:45"
       },
-      "helyszin": "Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)",
+      "helyszin": "Teológia Szemere utca 1/A",
       "oktato": "Dr. Bednarik László",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Elmélet"
     },
     {
-      "targy": "Komputergrafika és képfeldolgozás (THE_00584_N_5_K)",
+      "targy": "Komputergrafika és képfeldolgozás",
       "idopont": {
-        "nap": "2024. 02. 22. (Csütörtök)",
+        "nap": "2024. 02. 22.",
         "tol": "16:00",
         "ig": "17:30"
       },
-      "helyszin": "Teológia Szemere utcai bejárat földszint kis terem(Teologia_Szemere_1/A)",
+      "helyszin": "Teológia Szemere utca 1/A",
       "oktato": "Dr. Bednarik László",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Elmélet"
     },
     {
-      "targy": "Kalkulus (THE_00562_N_3_K)",
+      "targy": "Kalkulus",
       "idopont": {
-        "nap": "2024. 02. 23. (Péntek)",
+        "nap": "2024. 02. 23.",
         "tol": "13:30",
         "ig": "17:30"
       },
       "helyszin": "-",
       "oktato": "Wiersumné Dr. Gyöngyösi Erika",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Elmélet"
     },
     {
-      "targy": "Operációs rendszerek (THE_00571_N_5_K)",
+      "targy": "Operációs rendszerek",
       "idopont": {
-        "nap": "2024. 02. 24. (Szombat)",
+        "nap": "2024. 02. 24.",
         "tol": "9:00",
         "ig": "12:55"
       },
       "helyszin": "-",
       "oktato": "Janics Tamás",
-      "szak": "Programtervező informatikus - alapképzés (THE-PTI-BSc-N)",
+      "szak": "Programtervező informatikus",
       "tipus": "Elmélet"
     }
   ]
