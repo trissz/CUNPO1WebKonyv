@@ -23,7 +23,7 @@ $(document).ready(function ()
             $("#area").append("</ul><br><b>Órarend -2024 tavasz</b><br><br>");
             
             $("#area").append("<b>Tárgy:</b>&nbsp;" + data.ora.targy + "<br><br>");
-            $("#area").append("<b>Időpont:</b>&nbsp;" + data.ora.idopont.nap + "&nbsp;" + data.ora.idopont.tol + "-" + data.ora.idopont.ig + "<br><br>");
+            $("#area").append("<b>Időpont:</b><br>&nbsp;Nap:&nbsp;" + data.ora.idopont.nap + "<br>&nbsp;Tól:&nbsp;" + data.ora.idopont.tol + "<br>&nbsp;Ig:&nbsp;" + data.ora.idopont.ig + "<br><br>");
             $("#area").append("<b>Helyszín:</b>&nbsp;" + data.ora.helyszin + "<br><br>");
             $("#area").append("<b>Oktató:</b>&nbsp;" + data.ora.oktato + "<br><br>");
             $("#area").append("<b>Szak:</b>&nbsp;" + data.ora.szak + "<br><br>");

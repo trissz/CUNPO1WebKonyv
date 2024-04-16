@@ -21,7 +21,15 @@ $(document).ready(function ()
 
     $("#param_btn").click(function()
     {
-        alert($("#source_").text());
-        $("#text_area").html($("#source_").text());
+        //alert($("#source_").text());
+        //$("#text_area").html($("#source_").text());
+
+        //let param = prompt("Terület: ");
+        //alert("A megadott terület: " + param);
+        //$("#text_area").html(param);
+
+        let id = prompt("ID: ");
+        alert("A megadott ID: " + id);
+        $("#text_area").html(id);
     });
 });

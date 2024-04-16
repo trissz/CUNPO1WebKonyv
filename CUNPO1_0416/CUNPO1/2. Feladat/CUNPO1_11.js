@@ -25,7 +25,7 @@ $(document).ready(function ()
             for ( let i = 0; i < data.ora.length; i ++ )
             {
                 $("#area").append("<b>Tárgy:</b>&nbsp;" + data.ora[i].targy + "<br><br>");
-                $("#area").append("<b>Időpont:</b>&nbsp;" + data.ora[i].idopont.nap + "&nbsp;" + data.ora[i].idopont.tol + "-" + data.ora[i].idopont.ig + "<br><br>");
+                $("#area").append("<b>Időpont:</b><br>&nbsp;Nap:&nbsp;" + data.ora[i].idopont.nap + "<br>&nbsp;Tól:&nbsp;" + data.ora[i].idopont.tol + "<br>&nbsp;Ig:&nbsp;" + data.ora[i].idopont.ig + "<br><br>");
                 $("#area").append("<b>Helyszín:</b>&nbsp;" + data.ora[i].helyszin + "<br><br>");
                 $("#area").append("<b>Oktató:</b>&nbsp;" + data.ora[i].oktato + "<br><br>");
                 $("#area").append("<b>Szak:</b>&nbsp;" + data.ora[i].szak + "<br><br>");
