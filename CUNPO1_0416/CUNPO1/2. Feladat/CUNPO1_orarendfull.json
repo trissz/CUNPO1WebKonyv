@@ -1,0 +1,107 @@
+{
+  "ora": [
+    {
+      "targy": "Valószínűségszámítás és statisztika",
+      "idopont": {
+        "nap": "2024. 02. 19.",
+        "tol": "10:00",
+        "ig": "13:45"
+      },
+      "helyszin": "Teológia Szemere utca 1/A",
+      "oktato": "Alföldi Attila",
+      "szak": "Programtervező informatikus",
+      "tipus": "Elmélet"
+    },
+    {
+      "targy": "Webkönyvtárak",
+      "idopont": {
+        "nap": "2024. 02. 20.",
+        "tol": "12:15",
+        "ig": "13:45"
+      },
+      "helyszin": "Teológia Szemere utca 1/A",
+      "oktato": "Dr. Bednarik László",
+      "szak": "Programtervező informatikus",
+      "tipus": "Gyakorlat"
+    },
+    {
+      "targy": "Webkönyvtárak",
+      "idopont": {
+        "nap": "2024. 02. 20.",
+        "tol": "16:00",
+        "ig": "17:30"
+      },
+      "helyszin": "Teológia Szemere utca 1/A",
+      "oktato": "Dr. Bednarik László",
+      "szak": "Programtervező informatikus",
+      "tipus": "Gyakorlat"
+    },
+    {
+      "targy": "Komputergrafika és képfeldolgozás",
+      "idopont": {
+        "nap": "2024. 02. 22.",
+        "tol": "12:15",
+        "ig": "13:45"
+      },
+      "helyszin": "Teológia Szemere utca 1/A",
+      "oktato": "Dr. Bednarik László",
+      "szak": "Programtervező informatikus",
+      "tipus": "Elmélet"
+    },
+    {
+      "targy": "Komputergrafika és képfeldolgozás",
+      "idopont": {
+        "nap": "2024. 02. 22.",
+        "tol": "16:00",
+        "ig": "17:30"
+      },
+      "helyszin": "Teológia Szemere utca 1/A",
+      "oktato": "Dr. Bednarik László",
+      "szak": "Programtervező informatikus",
+      "tipus": "Elmélet"
+    },
+    {
+      "targy": "Kalkulus",
+      "idopont": {
+        "nap": "2024. 02. 23.",
+        "tol": "13:30",
+        "ig": "17:30"
+      },
+      "helyszin": "-",
+      "oktato": "Wiersumné Dr. Gyöngyösi Erika",
+      "szak": "Programtervező informatikus",
+      "tipus": "Elmélet"
+    },
+    {
+      "targy": "Operációs rendszerek",
+      "idopont": {
+        "nap": "2024. 02. 24.",
+        "tol": "9:00",
+        "ig": "12:55"
+      },
+      "helyszin": "-",
+      "oktato": "Janics Tamás",
+      "szak": "Programtervező informatikus",
+      "tipus": "Elmélet"
+    }
+  ],
+
+  "cim":
+  {
+    "iranyitoszam": 3950,
+    "varos": "Sárospatak",
+    "utca": "Eötvös 7"
+  },
+
+  "telefonszam":
+  [
+    {
+      "tipus": "Vezetékes",
+      "szam": "0646 555-123"
+    },
+    {
+      "tipus": "Mobil",
+      "szam": "0670 555-4567"
+    }
+  ]
+}

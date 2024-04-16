@@ -1,0 +1,55 @@
+body
+{
+    margin: 2em;
+}
+
+header
+{
+    width: fit-content;
+}
+
+.func_btn
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+#box
+{
+    background-color: green;
+    width: fit-content;
+    height: fit-content;
+    min-width: 150px;
+    min-height: 150px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: black;
+    left: 300px;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+#text_area
+{
+    margin-top: 30%;
+    font-weight: bold;
+}
+
+#form_>label
+{
+    font-weight: bold;
+}
+
+#form_>input
+{
+    margin-bottom: 1em;
+}
+
+#form_>input[type="submit"]
+{
+    margin-top: 1em;
+}
