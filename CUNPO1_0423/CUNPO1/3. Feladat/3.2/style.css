@@ -7,6 +7,7 @@ h1
 {
     background-color: lightblue;
     margin-bottom: 1em;
+    width: 4%;
 }
 
 .fieldset_
@@ -19,9 +20,22 @@ h1
 {
     border: 0.1em solid black;
     border-radius: 0.2em;
+    margin-bottom: 2em;
 }
 
 #container_
 {
     margin-bottom: 1em;
+}
+
+#result
+{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#result_container
+{
+    display: flex;
+    align-items: center;
 }

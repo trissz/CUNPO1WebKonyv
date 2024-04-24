@@ -1,5 +1,9 @@
 $(document).ready(function ()
 {
+    $(".widget button").button();
+
+    $("input[type='radio']").checkboxradio();
+
     $("#calc").click(function(event)
     {
         event.preventDefault();
@@ -30,27 +34,7 @@ $(document).ready(function ()
 
         if ( c != null )
         {
-            $("#container_").append(c);
-        }
-    });
-
-    $(function()
-    {
-        $(".widget button").button();
-
-        $("button").on("click", function(event)
-        {
-            event.preventDefault();
-        });
-    });
-
-    $("input[type='radio']").checkboxradio();
-
-    $('input[type="radio"]').click(function()
-    {
-        if ( $(this).is(":checked").val() ) 
-        {
-            $(this).
+            $("#result").html(c);
         }
     });
 });
