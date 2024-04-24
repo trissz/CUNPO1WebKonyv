@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script type="text/javascript" src="CUNPO1_12.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>jQuery feladat</h1>
+
+    <p><strong>Adjon meg két egész számot!</strong></p>
+
+    <form id="form_">
+        <b>A&nbsp;=&nbsp;</b><input class="number_input" type="number" id="a_in" name="ain"/><br>
+        <b>B&nbsp;=&nbsp;</b><input class="number_input" type="number" id="b_in" name="bin"/><br>
+        
+        <fieldset class="fieldset_">
+            <legend>Select operation</legend>
+            <label for="a_times_b">A&nbsp;*&nbsp;B</label>
+            <input type="radio" id="a_times_b" name="atb" value=""/><br><br>
+            <label for="a_dividedby_b">A&nbsp;/&nbsp;B</label>
+            <input type="radio" id="a_dividedby_b" name="advbb" value=""/><br><br>
+            <label for="a_plus_b">A&nbsp;+&nbsp;B</label>
+            <input type="radio" id="a_plus_b" name="apb" value=""/><br><br>
+            <label for="a_minus_b">A&nbsp;-&nbsp;B</label>
+            <input type="radio" id="a_minus_b" name="amb" value=""/>
+        </fieldset>
+
+        <div id="container_">
+            <div class="widget" id="container_">
+                <button type="button" id="calc">Számol</button>
+            </div>
+
+            <b>Eredmény:&nbsp;</b>
+        </div>
+    </form>
+</body>
+</html>

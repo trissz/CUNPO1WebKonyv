@@ -1,0 +1,27 @@
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.number_input
+{
+    background-color: lightblue;
+    margin-bottom: 1em;
+}
+
+.fieldset_
+{
+    margin-bottom: 2em;
+    width: fit-content;
+}
+
+#calc
+{
+    border: 0.1em solid black;
+    border-radius: 0.2em;
+}
+
+#container_
+{
+    margin-bottom: 1em;
+}

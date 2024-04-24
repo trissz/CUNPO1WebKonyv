@@ -91,13 +91,13 @@ $(document).ready(function ()
         $("#accordion_paragraph_container").accordion();
     });
 
-    $( function()
+    $(function()
     {
         $(".widget button").button();
 
         $("button").on("click", function(event)
         {
-          event.preventDefault();
+            event.preventDefault();
         });
     });
 });
