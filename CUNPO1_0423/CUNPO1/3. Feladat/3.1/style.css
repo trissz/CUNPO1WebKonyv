@@ -1,0 +1,72 @@
+body
+{
+    margin: 2em;
+}
+
+header
+{
+    width: fit-content;
+}
+
+#form_1
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 30%;
+    background-color: lightblue;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.input_container
+{
+    display: flex;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.form_label
+{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1em;
+    width: 30%;
+}
+
+#form_1>input
+{
+    background-color: white;
+}
+
+.submit_btn
+{
+    border: 0.3em solid black;
+    margin-top: 1em;
+    background-color: lightgray;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#output_container
+{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.func_btn
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+#accordion_paragraph_container
+{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: fit-content;
+}
