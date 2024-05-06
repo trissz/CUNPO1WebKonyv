@@ -28,7 +28,9 @@ public class DomReadCUNPO1
             {
                 Element oraElement = (Element) oraList.item(i);
                 
-                System.out.println("Ora ID: " + oraElement.getAttribute("id"));
+                String oraID = oraElement.getAttribute("id");
+                
+                System.out.println("Ora ID: " + oraID);
                 
                 NodeList childNodes = oraElement.getChildNodes();
                 
@@ -39,9 +41,17 @@ public class DomReadCUNPO1
                     if ( childNode.getNodeType() == Node.ELEMENT_NODE )
                     {
                         Element childElement = (Element) childNode;
-                        childElement.setTextContent(childElement.getTextContent().replace("  ", ""));
-                        childElement.setTextContent(childElement.getTextContent().replace("\n", ""));
-                        System.out.println(childElement.getTagName() + ": " + childElement.getTextContent());
+                        
+                        Node node1 = childElement.getElementsByTagName("targy").item(0);
+                        String subject = node1.getTextContent();
+                        
+                        Node node2 = childElement.getElementsByTagName("idopont").item(0);
+                        Element node2Element = (Element) node2;
+                        Node node2Element = node2.getElementsByTagName("nap").item(0);
+                        String datetime = node2.getTextContent();
+                        
+                        Node subjects = childElement.getElementsByTagName("targy").item(0);
+                        String subject = subjects.getTextContent();
                     }
                 }
                 
