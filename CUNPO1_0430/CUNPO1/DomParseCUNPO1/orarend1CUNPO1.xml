@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><BTK_orarend>
+    <ora id="01">
+        <targy>Valószínűségszámítás és statisztika</targy>
+        <idopont>
+            <nap>2024. 02. 19.</nap>
+            <tol>10:00</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utca 1/A</helyszin>
+        <oktato>Alföldi Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Elmélet</tipus>
+    </ora>
+    <ora id="02">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <nap>2024. 02. 20.</nap>
+            <tol>12:15</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utca 1/A</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+    <ora id="03">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <nap>2024. 02. 20.</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utca 1/A</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+    <ora id="04">
+        <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <nap>2024. 02. 22.</nap>
+            <tol>12:15</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utca 1/A</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Elmélet</tipus>
+    </ora>
+    <ora id="05">
+        <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <nap>2024. 02. 22.</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utca 1/A</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Elmélet</tipus>
+    </ora>
+    <ora id="06">
+        <targy>Kalkulus</targy>
+        <idopont>
+            <nap>2024. 02. 23.</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>-</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Elmélet</tipus>
+    </ora>
+    <ora id="07">
+        <targy>Operációs rendszerek</targy>
+        <idopont>
+            <nap>2024. 02. 24.</nap>
+            <tol>9:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>-</helyszin>
+        <oktato>Janics Tamás</oktato>
+        <szak>Programtervező informatikus</szak>
+        <tipus>Elmélet</tipus>
+    </ora>
+</BTK_orarend>
