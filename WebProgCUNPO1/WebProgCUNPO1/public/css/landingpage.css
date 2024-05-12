@@ -1,0 +1,264 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #D3D3D3;
+}
+  
+header
+{
+    position: unset;
+    display: flex;
+    background-color: #3C4C24;
+    animation-name: header_bg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    z-index: 1001;
+}
+
+header img
+{
+    width: 10em;
+}
+
+@keyframes header_bg
+{
+    0%   {background-color: #3C4C24;}
+    25%  {background-color: rgb(43, 144, 18);}
+    50%  {background-color: rgb(15, 107, 43);}
+    100% {background-color: #3C4C24;}
+}
+
+#landingpage_header_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#landingpage_h1
+{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#main_content_landingpage
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#first_text_container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgb(45, 9, 9);
+}
+
+#first_text_container h1
+{
+    font-size: 4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.landingpage_first_text_horizontal_rule
+{
+    margin-top: 1em;
+    width: 100%;
+    border: none;
+    height: 0.1em;
+    background: black;
+    background-size: 100% 0.2em;
+}
+
+.menubar_landingpage
+{
+    margin-top: 0;
+    z-index: 1002;
+}
+
+.hidden_object
+{
+    width: 10em;
+}
+
+.lane
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    gap: 1%;
+    width: 100%;
+    height: fit-content;
+    background-color: #FFCF04;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.landingpage_widget
+{
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+    background-color: #FFA804;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100%;
+    perspective: 1000px;
+}
+
+.landingpage_widget:hover .flipper, .landingpage_widget.hover .flipper
+{
+    transform: rotateY(180deg);
+}
+
+.landingpage_widget, .front, .back
+{
+	height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.flipper
+{
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+    height: 100%;
+}
+
+.front, .back
+{
+    /*margin: 0.5em;*/
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+	backface-visibility: hidden;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.front
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    text-align: center;
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back
+{
+	transform: rotateY(180deg);
+}
+
+.back ol li
+{
+    margin-bottom: 1em;
+}
+
+.fancy_hr
+{
+    margin-top: 5em;
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.fancy_hr:before
+{
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.history_of_algorithms_container
+{
+    width: 100%;
+}
+
+.history_of_algorithms_content
+{
+    margin-left: 3em;
+    margin-right: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history_of_algorithms_content a
+{
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+}
+
+.history_of_algorithms_content a:hover
+{
+    color: purple;
+    transition: color 0.3s ease;
+}
+
+.history_of_algorithms_content_paragraph::first-letter
+{
+    margin-left: 1em;
+}
+
+.history_of_algorithms_mediacontent_container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    width: 90%;
+    padding: 1em;
+}
+
+.history_of_algorithms_mediacontent_container img
+{
+    border: 0.2em solid transparent;
+}
+
+.history_of_algorithms_mediacontent_container img:hover
+{
+    border: 0.2em dotted black;
+}
+
+#euclid_algorithm_image, #euclid_algorithm_gif
+{
+    width: 15em;
+    height: 15em;
+}
+
+.book
+{
+    width: 10em;
+}

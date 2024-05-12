@@ -1,0 +1,130 @@
+#main_content_forms
+{
+    padding-top: 2em;
+}
+
+.form
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    background-color: rgb(59, 88, 93);
+    border-radius: 2em;
+    padding: 3em;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    box-shadow: 0.2em 0.2em 0.5em 0.2em #873b3b;
+}
+
+.form>hr
+{
+    border: 0.1em solid rgba(99, 103, 184, 0.5);
+    border-radius: 0.3em;
+}
+
+.form_element
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.form_element_label
+{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1em;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.form_element_content
+{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.2em solid gray;
+    border-radius: 0.3em;
+    width: 50%;
+    padding: 0.5em;
+}
+
+#favalgos
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    width: 100%;
+    height: 2em;
+}
+
+#datalist_forms
+{
+    background-color: white;
+    width: 100%;
+}
+
+.range_input
+{
+    width: 100%;
+}
+
+.range_input_label_container
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5vh;
+}
+
+#btn_container_forms
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    width: 100%;
+}
+
+#send_btn_forms
+{
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0.1em solid black;
+    transition: background-color 0.3s ease-out;
+    padding: 1em;
+}
+
+#send_btn_forms
+{
+    background-color: white;
+}
+
+#send_btn_forms:hover
+{
+    background-color: rgb(83, 90, 83);
+    transition: background-color 0.25s ease;
+}
+
+.invalid_forms_field
+{
+    background-color: lightcoral;
+    border: 0.3em solid red;
+}
+
+.message_container
+{
+    text-align: center;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 0.2em solid black;
+    width: fit-content;
+    padding: 1em;
+}

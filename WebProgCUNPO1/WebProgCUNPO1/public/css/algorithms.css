@@ -1,0 +1,213 @@
+:root
+{
+    --code-container-background-color-light: white;
+    --code-container-background-color-dark: black;
+    --description-container-background-color-light: #EDEDED;
+    --description-container-background-color-dark: #FF7104;
+    --description-container-border-color-light: #33569C;
+    --description-container-border-color-dark: #FF0404;
+    --description-container-text-color-light: #7F6F88;
+    --description-container-text-color-dark: #03DCCC;
+}
+
+.grid_container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.algorithm_widget
+{
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-clip: padding-box;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient
+{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.algorithm_widget h2
+{
+    margin-top: 0;
+}
+
+.algorithm_widget p
+{
+    margin-bottom: 1em;
+}
+
+.algorithm_widget button
+{
+    display: flex;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8em 1em 0.8em 1em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.algorithm_widget button:hover 
+{
+    background-color: #0056b3;
+}
+
+.algorithm_category
+{
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.algorithm_description
+{
+    margin-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+}
+
+.go_back_container a
+{
+    width: fit-content;
+    height: fit-content;
+    color: blue;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.25s ease-out;
+    text-decoration: none;
+}
+
+.go_back_container a:hover
+{
+    color: purple;
+    transition: color 0.25s ease;
+}
+
+.description_container
+{
+    align-items: center;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    background-color: var(--description-container-background-color-light);
+    border: 0.5em groove var(--description-container-border-color-light);
+    color: var(--description-container-text-color-light);
+    padding: 1em;
+    width: fit-content;
+}
+
+body.dark-mode .description_container
+{
+    background-color: var(--description-container-background-color-dark);
+    border-color: var(--description-container-border-color-dark);
+    color: var(--description-container-text-color-dark);
+}
+
+.toggle_code_visibility_btn_container
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+.toggle_code_visibility_btn
+{
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0;
+    border: none;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    background-color: #e73c7e;
+    cursor: pointer;
+}
+
+.toggle_code_visibility_btn img
+{
+    height: auto;
+    width: 2em;
+}
+
+.code_container
+{
+    background-color: var(--code-container-background-color-light);
+    border-radius: 0 0.5em 0.5em 0.5em;
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 5em;
+    max-width: 100%;
+    max-height: 60vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    filter: blur(0.2rem);
+    user-select: none;
+    font-weight: bold;
+}
+
+body.dark-mode .code_container
+{
+    background-color: var(--code-container-background-color-dark);
+}
+
+.copy_code_btn
+{
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 2vh;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+.copy_code_btn:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.code_container pre
+{
+    margin: 0;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.code_container .code_def { color: green; }
+.code_container .code_types { color: blue; }
+.code_container .code_flow { color: darkblue; }
+.code_container .code_streams { color: green; }
+.code_container .code_structures { color: green; }
+.code_container .code_structure_functions { color: green; }
+.code_container .code_comment { color: rgb(28, 96, 89); }
+.code_container .code_string { color: rgb(48, 48, 255); }
+.code_container .code_number { color: blue; }
+
+.topaz_header
+{
+    font-size: 5vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/abstract.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <script src="/jquery-3.7.1.js"></script>
+    <script src="/jquery-ui.js"></script>
+    <script src="/colorpicker-master/jquery.colorpicker.js"></script>
+    <script src="/script/abstract.js"></script>
+    <script src="/script/forms.js"></script>
+    <title>Űrlap</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div id="img_container">
+                <a href="/landingpage.html"><img src="/images/logo.png"></a>
+            </div>
+            <h1>Űrlap</h1>
+            <div class="theme_switch" onclick="toggleTheme()">
+                <img src="/images/dark_mode.png">
+            </div>
+        </div>
+    </header>
+
+    <div class="main_content" id="main_content_forms">
+        <h1 style="text-align: center;margin-bottom: 2em;">Űrlap kitöltése</h1>
+        <section class="form">
+            <form>
+                <div class="form_element" id="name_container_forms">
+                    <div class="form_element_label">Adja meg a teljes nevét:</div>
+                    <input class="form_element_content" id="name" name="name" type="text" checked="">
+                </div>
+                <div class="form_element" id="email_container">
+                    <div class="form_element_label">Adja meg az email címét:</div>
+                    <input class="form_element_content" id="email" name="email" type="email" checked="">
+                </div>
+                <div class="form_element" id="age_container">
+                    <div class="form_element_label">Mikor született?</div>
+                    <input class="form_element_content" id="age" name="age" type="text">
+                </div>
+                <div class="form_element" id="favcolor_container">
+                    <div class="form_element_label">Mi a kedvenc színe?</div>
+                    <input class="form_element_content" id="favcolor" name="favcolor" type="text">
+                </div>
+                <div class="form_element" id="is_useful_container_forms">
+                    <div class="form_element_label">Hasznosnak gondolja ezt az oldalt?</div>
+                        <fieldset>
+                            <legend>Válasszon egyet</legend>
+                            <label for="useful">Igen</label>
+                            <input class="form_element_content" id="useful" name="useful" type="radio">
+                            <label for="not_useful">Nem</label>
+                            <input class="form_element_content" id="not_useful" name="not_useful" type="radio">
+                        </fieldset>
+                </div>
+                <div class="form_element" id="favalgos_container_forms">
+                    <div class="form_element_label">Az alábbiak közül melyik algoritmus tetszik önnek a legjobban?</div>
+                    <input list="datalist_forms" id="favalgos" name="favalgos">
+                    <datalist id="datalist_forms">
+                        <option value="-">Válasszon</option>
+                    </datalist>
+                </div>
+                <div class="form_element" id="recommend_container">
+                    <div class="form_element_label">Ajánlaná másnak is ezt az oldalt?</div>
+                    <label for="reommend">Igen</label>
+                    <input class="form_element_content" id="recommend" name="recommend" type="radio">
+                    <label for="not_recommend">Nem</label>
+                    <input class="form_element_content" id="not_recommend" name="not_recommend" type="radio">
+                </div>
+                <div class="form_element" id="learnlevel_container">
+                    <div class="form_element_label">Véleménye szerint milyen mértékben tanulna hatékonyan egy weboldalról?</div>
+                    <div class="range_input_label_container">0</div><input class="range_input" id="learnlevel" name="learnlevel" type="range" min="0" max="10" value="5"><div class="range_input_label_container">10</div>
+                </div>
+                <div class="form_element" id="opinion_container">
+                    <div class="form_element_label">Mi a véleménye erről a weboldalról?</div>
+                    <input class="form_element_content" id="opinion" name="opinion" type="textarea" checked="">
+                </div><hr>
+                <div id="btn_container_forms">
+                    <input id="send_btn_forms" type="button" value="Űrlap elküldése">
+                </div>
+            </form>
+        </section>
+        <div class="message_container" id="message_container_forms" hidden></div>
+    </div>
+
+    <div id="toggle_nav_btn_container">
+        <button class="toggle_nav_btn" id="toggle_nav_btn_forms">
+            <div class="toggle_nav_text" id="toggle_nav_text_forms">>></div>
+        </button>
+    </div>
+
+    <nav class="menubar" id="menubar_forms">
+        <ul>
+            <li class="submenu">
+                <div class="complex_list_element"><div class="complex_list_element_reference"><a href="/html/algorithms.html">Algoritmusok</a></div><div class="subelement_arrow_container">&#x25B6;</div></div>
+                <ul class="submenu_items"></ul>
+            </li><hr class="navhr">
+            <li><a href="/html/introduction.html">Bemutatkozás</a></li><hr class="navhr">
+            <li><a href="/html/forms.html">Űrlap kitöltése</a></li><hr class="navhr">
+            <li><a href="/html/algorithms_table.html">Algoritmus táblázat</a></li><hr class="navhr">
+        </ul>
+    </nav>
+
+    <footer>
+        <div class="link_container">
+            <a href="https://unithe.hu/" target="_blank">Az egyetem honlapja</a>
+            <a href="/html/forms.html" target="_blank">Űrlap kitöltése</a>
+        </div><hr class="footer_horizontal_rule">
+
+        <p style="font-size: small;">&copy; 2024 CUNPO1 Webkönyvtárak záró. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>

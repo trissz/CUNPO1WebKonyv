@@ -1,0 +1,20 @@
+#algorithm_table
+{
+    margin-top: 2em;
+    border: 0.7em solid black;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#algorithm_table td
+{
+    font-size: 2vh;
+    border: 0.3em solid black;
+    padding: 0.3em;
+}
+
+#algorithm_table th
+{
+    font-size: 3vh;
+    border-bottom: 0.3em solid black;
+}

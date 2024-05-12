@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/abstract.css">
+    <link rel="stylesheet" href="/css/introduction.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <script src="/jquery-3.7.1.js"></script>
+    <script src="/jquery-ui.js"></script>
+    <script src="/script/abstract.js"></script>
+    <script src="/script/algorithms.js"></script>
+    <script src="/script/introduction.js"></script>
+    <title>Bemutatkozás</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div id="img_container">
+                <a href="/landingpage.html"><img src="/images/logo.png"></a>
+            </div>
+            <h1>Bemutatkozás</h1>
+            <div class="theme_switch" onclick="toggleTheme()">
+                <img src="/images/dark_mode.png">
+            </div>
+        </div>
+    </header>
+
+    <div class="main_content" id="main_content_introduction">
+        <h1 id="hello_text" hidden>Üdvözlöm az algoritmusok és az informatikai matematika világában!</h1>
+
+        <h3>Téma</h3>
+
+        <article>
+            <div class="content_container" id="content_1_introduction" hidden>
+                <div class="text_content_container">
+                    Ezen a felületen az informatika területén alkalmazott algoritmusok és azok gyakorlati alkalmazása kerül bemutatásra. Itt mindenki megtalálhatja az érdekes és hasznos tartalmakat, legyen szó alapvető algoritmusokról, keresőalgoritmusokról, rendezési algoritmusokról vagy éppen azokról a matematikai fogalmakról és problémákról, amelyek közvetlenül kapcsolódnak az informatikai alkalmazásokhoz.
+                </div>
+            </div>
+
+            <hr class="content_separator" id="content_separator_1_introduction">
+
+            <h3>Inspiráció</h3>
+
+            <div class="content_container" id="content_2_introduction" hidden>
+                <div class="text_content_container">
+                    Weboldalamat az informatika és matematika iránti szenvedélyem inspirálta, és célom, hogy segítsek mindenkinek megérteni ezeket a bonyolult, ám izgalmas területeket.
+                </div>
+            </div>
+
+            <hr class="content_separator" id="content_separator_2_introduction">
+
+            <strong>Jó böngészést kívánok!</strong>
+        </article>
+    </div>
+
+    <div id="toggle_nav_btn_container">
+        <button class="toggle_nav_btn" id="toggle_nav_btn__introduction">
+            <div class="toggle_nav_text" id="toggle_nav_text_introduction">>></div>
+        </button>
+    </div>
+
+    <nav class="menubar" id="menubar_introduction">
+        <ul>
+            <li class="submenu">
+                <div class="complex_list_element"><div class="complex_list_element_reference"><a href="/html/algorithms.html">Algoritmusok</a></div><div class="subelement_arrow_container">&#x25B6;</div></div>
+                <ul class="submenu_items"></ul>
+            </li><hr class="navhr">
+            <li><a href="/html/introduction.html">Bemutatkozás</a></li><hr class="navhr">
+            <li><a href="/html/forms.html">Űrlap kitöltése</a></li><hr class="navhr">
+            <li><a href="/html/algorithms_table.html">Algoritmus táblázat</a></li><hr class="navhr">
+        </ul>
+    </nav>
+
+    <footer>
+        <div class="link_container">
+            <a href="https://unithe.hu/" target="_blank">Az egyetem honlapja</a>
+            <a href="/html/forms.html" target="_blank">Űrlap kitöltése</a>
+        </div><hr class="footer_horizontal_rule">
+
+        <p style="font-size: small;">&copy; 2024 CUNPO1 Webkönyvtárak záró. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
