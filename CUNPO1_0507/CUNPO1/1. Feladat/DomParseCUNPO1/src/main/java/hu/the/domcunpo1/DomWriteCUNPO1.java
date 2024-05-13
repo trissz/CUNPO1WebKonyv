@@ -15,7 +15,7 @@ import org.w3c.dom.NodeList;
 public class DomWriteCUNPO1
 {
     public static void main(String[] args)
-    {   
+    {
         try
         {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
