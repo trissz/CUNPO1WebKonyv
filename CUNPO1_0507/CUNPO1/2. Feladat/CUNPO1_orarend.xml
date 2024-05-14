@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<BTK_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="XMLSchemaCUNPO1.xsd">
+<BTK_orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaCUNPO1.xsd">
     <ora id="1" tipus="Elmélet">
         <targy>Valószínűségszámítás és statisztika</targy>
         <idopont>
