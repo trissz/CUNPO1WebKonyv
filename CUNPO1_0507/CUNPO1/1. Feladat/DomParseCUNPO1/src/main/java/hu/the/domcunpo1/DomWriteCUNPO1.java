@@ -1,6 +1,8 @@
 package hu.the.domcunpo1;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
@@ -43,15 +45,20 @@ public class DomWriteCUNPO1
         
         NodeList oraList = root_element.getElementsByTagName("ora");
         
+        List<Node> oraNodes = new ArrayList<>();
+        
         for ( int i = 0; i < oraList.getLength(); i ++ )
         {
-            Node ora_node = oraList.item(i);
-            
+            oraNodes.add(oraList.item(i));
+        }
+        
+        for ( Node ora_node : oraNodes )
+        {
             if ( ora_node.getNodeType() == Node.ELEMENT_NODE )
             {
                 Element oraElement = (Element) ora_node;
 
-                Element new_ora_element = doc.createElement("ora");
+                Element new_ora_element = new_doc.createElement("ora");
                 new_ora_element.setAttribute("id", oraElement.getAttribute("id"));
 
                 NodeList child_nodes = oraElement.getChildNodes();
@@ -63,13 +70,35 @@ public class DomWriteCUNPO1
                     if ( child_node.getNodeType() == Node.ELEMENT_NODE )
                     {
                         Element child_element = (Element) child_node;
-                        Element new_child_element = doc.createElement(child_element.getTagName());
-                        new_child_element.setTextContent(child_element.getTextContent());
-                        new_ora_element.appendChild(new_child_element);
+                        Element new_child_element = new_doc.createElement(child_element.getTagName());
+                        
+                        if ( child_element.getTagName().equals("idopont") )
+                        {
+                            Element idopont_element = new_doc.createElement("idopont");
+                            
+                            Element nap_element = new_doc.createElement("nap");
+                            nap_element.setTextContent(child_element.getElementsByTagName("nap").item(0).getTextContent());
+                            idopont_element.appendChild(nap_element);
+
+                            Element tol_element = new_doc.createElement("tol");
+                            tol_element.setTextContent(child_element.getElementsByTagName("tol").item(0).getTextContent());
+                            idopont_element.appendChild(tol_element);
+
+                            Element ig_element = new_doc.createElement("ig");
+                            ig_element.setTextContent(child_element.getElementsByTagName("ig").item(0).getTextContent());
+                            idopont_element.appendChild(ig_element);
+
+                            new_ora_element.appendChild(idopont_element);
+                        }
+                        else
+                        {
+                            new_child_element.setTextContent(child_element.getTextContent());
+                            new_ora_element.appendChild(new_child_element);
+                        }
                     }
                 }
 
-                doc.getDocumentElement().appendChild(new_ora_element);
+                new_doc.getDocumentElement().appendChild(new_ora_element);
             }
         }
         
@@ -111,7 +140,12 @@ public class DomWriteCUNPO1
         {
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
-            return docBuilder.newDocument();
+            Document new_doc = docBuilder.newDocument();
+            
+            Element rootElement = new_doc.createElement("BTK_orarend");
+            new_doc.appendChild(rootElement);
+            
+            return new_doc;
         }
         catch ( Exception e )
         {
